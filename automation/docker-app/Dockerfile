@@ -1,6 +1,6 @@
-FROM jfrog.local:5003/docker-framework:latest
+FROM docker-local.artifactory1.fyre.ibm.com/httpd
 
-MAINTAINER Stanley Fong stanleyf@jfrog.com
+MAINTAINER Michael Walker miwalker@us.ibm.com
 
 ADD war/*.war /home/exec/tomcat/webapps/swampup.war
 
